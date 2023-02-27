@@ -1,0 +1,338 @@
+body{
+    background-color: #F3F5FC;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'East Sea Dokdo', cursive, sans-serif;
+}
+
+:root{
+    --corrodape:#D8DFE8
+    --corsegundaria:#64d6e6;
+    --cortitulo:#8db5f1;
+
+}
+article{
+    order: 2;
+}
+  main{
+    width: 100%;
+  }
+
+
+
+
+#logo{
+    margin: 1rem;
+}
+
+.container-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#texto img{
+    display: none;
+
+}
+#texto h2{
+    display: none;
+}
+
+#inpute{
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px 0 5px;
+}
+
+#inpute__entrada{
+    width: 100%;
+    height: 300px;
+    font-size: 25px;
+    color: var(--cortitulo);
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    resize: none;
+    outline: 0;
+    padding: 2px;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+.container-bnt{
+    display: flex;
+    flex-direction: column;
+}
+.container-bnt #cod{
+
+    border: 2px solid rgb(154, 171, 243);
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #2c3d74;
+    height: 67px;
+    margin-left: 4%;
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 24px;
+    padding: 24px;
+}
+
+.container-bnt #dec{
+        border: 2px solid rgb(154, 171, 243);
+        border-radius: 10px;
+        text-decoration: none;
+        color: rgb(154, 171, 243);
+        background-color: #F3F5FC;
+        height: 67px;
+        margin-left: 4%;
+        cursor: pointer;
+        margin: 20px;
+        border-radius: 24px;
+        padding: 24px;
+}
+p{
+    text-align: start;
+    margin-left: 5px;
+}
+
+#texto{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    box-shadow: none;
+    border: none;
+    resize: none;
+    outline: 0;
+    padding: 32px;
+    text-transform: uppercase;
+    border-radius: 32px;
+    width: 30;
+    height: 220px;
+    margin: 10px;
+    height: 50vh;
+}
+#texto h3{
+    text-align: center;
+    font-size: 18px;
+    color: #343A40;
+    margin: 10px;
+}
+
+#texto span{
+    font-size: 12px;
+    text-align: center;
+    color: #495057
+}
+
+
+#input-texto{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: var(--cortitulo);
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    resize: none;
+    outline: 0;
+    padding: 20px;
+    text-transform: uppercase;  
+    bottom: -0;
+ 
+}
+#butao button:hover{
+    border: 2px solid var(--corsegundaria);
+    transition: 0.5s all;
+ }
+
+ .btn-copiar{
+    border: 2px solid var(--cortitulo);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #7c0160;
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    cursor: pointer;
+  
+}
+h3{
+    text-align: center;
+    font-size: 18px;
+    color: #343A40;
+    margin: 1rem;
+    bottom: -var(--cortitulo);
+    padding: 10px;
+}
+
+.rodape{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    margin-left: 25%;
+    text-align: center;
+}
+.icons{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    padding: 5px;
+}
+
+
+
+@media screen and (min-width: 768px ){
+    p{
+        text-align: start;
+        margin-left: 10px;
+    }
+
+    #input-texto{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+
+    .container-input {
+        width: 100%;
+    }
+   #butao{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 10px;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    .container-bnt{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    
+        }
+    .container-bnt #cod{
+        width: 397px;
+      
+    }
+    .container-bnt #dec{
+        width: 397px;
+    }
+
+    .btn-copiar{
+        width: 70vw;
+        height: 67px;
+        margin: 0 auto;
+    }
+
+    .rodape{
+        width: 50%;
+        height: 50px;
+        margin-left: 25%;
+        text-align: center;
+    }
+
+    .icons{
+        display: flex;
+        justify-content: center;
+    }
+
+    .icons ion-icon{
+        padding: 2px;
+}
+}
+
+
+@media screen and (min-width: 1024px){
+
+    
+    article{
+        order: -0;
+    }
+
+.container-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#inpute{
+    display: flex;
+    justify-content:space-between;
+    width: 650px;
+    height: 900px;
+    margin-bottom: 50px;
+}
+
+#inpute__entrada{
+    height: 900px;
+}
+
+p{
+    margin-bottom: 100px;
+    margin-left: 80px;
+    text-align: left;
+    font-size: 14px;
+}
+
+#input-texto{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+    
+
+#texto{
+    width: 400px;
+    height: 900px;
+    margin-top: -50px;
+    
+}
+
+#texto img{
+    display: flex;
+    align-items: center;
+    max-width:300px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+    margin-top: 50%;
+}
+
+#butao{
+    width: 650px;
+    margin-top: -150px;
+    
+}
+.btn-copiar{
+    width: 300px;
+    height: 67px;
+    margin-top: 10%;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+
+}
