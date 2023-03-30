@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Codificador de texto</title>
+  </head>
+
+  <body>
+    <main class="container">
+      <header class="cabecalho">
+        <img id="logo" src="./imagens/Vector.png" alt="logo" />
+      </header>
+      <div class="container-input">
+        <section id="inpute">
+          <textarea
+            id="inpute__entrada"
+            value=""
+            wrap="hard"
+            type="text"
+            placeholder="Digite seu texto"
+          ></textarea>
+          <p>
+            <ion-icon name="alert-circle-outline"></ion-icon> Apenas letras
+            maiuscula s e sem acento!
+          </p>
+        </section>
+
+        <article id="texto">
+          <div>
+            <img
+              src="./imagens/High quality products 1 1.png"
+              alt="imagem"
+              height="330px"
+              width="400px"
+            />
+          </div>
+
+          <h2>Sua mensagem aparecerá aqui!</h2>
+          <h3>Nenhuma messagem encontrada</h3>
+          <span
+            >Digite um texto que deseja criptografar ou descriptografar.</span
+          >
+        </article>
+        <aside id="butao">
+          <div class="container-bnt">
+            <button onclick="criptografar" id="cod">Criptografar</button>
+            <button onclick="descriptografar" id="dec">Descriptografar</button>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="rodape">
+      <div class="icons">
+        <a href="https://www.instagram.com/danonenascimento/"
+          ><ion-icon name="logo-Instagram"
+            ><ion-icon name="logo-instagram"></ion-icon></ion-icon
+        ></a>
+        <a href="https://www.linkedin.com/in/edenilson-nascimento-09635b150/"
+          ><ion-icon name="logo-Linkedin"
+            ><ion-icon name="logo-linkedin"></ion-icon></ion-icon
+        ></a>
+        <a href="https://github.com/Edenilson-Nascimento"
+          ><ion-icon name="logo-Github"
+            ><ion-icon name="logo-github"></ion-icon></ion-icon
+        ></a>
+      </div>
+      <h4>Desenvolvido por Edenilson Nascimento</h4>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
